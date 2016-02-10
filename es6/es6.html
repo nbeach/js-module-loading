@@ -2,15 +2,14 @@
 <html>
     <head lang="en">
         <meta charset="UTF-8">
-        <title>ES6 Module</title>
+        <title>ES6 (Babel)</title>
+        <script src="../vendor/require.js"></script>
         <script>
-            import Log from './log.js';
-
-            console.log('ES6 Module');
-            Log.error('The cake is a lie!'); //Still works!
+            requirejs.config({ baseUrl: 'compiled/' });
+            require(["es6"]);
         </script>
     </head>
 <body>
-    <h1>ES6 Module</h1>
+    <h1>ES6 (Babel)</h1>
 </body>
 </html>

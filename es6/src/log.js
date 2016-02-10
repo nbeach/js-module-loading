@@ -1,4 +1,4 @@
-import lodash from '../lib/lodash';
+import lodash from '../../vendor/lodash';
 
 var Log = (function() {
   var module = {};

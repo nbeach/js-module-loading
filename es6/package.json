@@ -1,0 +1,13 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "babel src --out-dir compiled"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-plugin-transform-es2015-modules-amd": "^6.5.0"
+  }
+}
