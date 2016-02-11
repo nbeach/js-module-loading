@@ -1,4 +1,4 @@
-var Log = (function(lodash) {
+var Log = function(lodash) {
   if(typeof lodash === 'undefined') { throw 'Dependency undefined!' }
 
   var module = {};
@@ -8,7 +8,7 @@ var Log = (function(lodash) {
     INFO: "INFO"
   };
 
-  var currentLogLevel = module.level.ERROR;
+  var currentLogLevel = module.level.INFO;
 
   module.setLogLevel = function(level) {
     currentLogLevel = level;
@@ -33,6 +33,5 @@ var Log = (function(lodash) {
   };
 
   return module;
-})(_);
-
+}(_);
 

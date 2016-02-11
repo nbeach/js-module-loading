@@ -1,5 +1,5 @@
 var Log = require('./Log');
 
-Log.error('CommonJS!');
+Log.info('CommonJS!');
 
-Log.error("lodash is " + typeof lodash + " as a global");
+Log.info("lodash is " + typeof lodash + " as a global");

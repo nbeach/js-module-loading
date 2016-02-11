@@ -1,3 +1,3 @@
 import Log from 'log';
 
-Log.error('ES6 (Babel)!');
+Log.info('ES6 (Babel)!');

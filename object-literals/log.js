@@ -10,7 +10,7 @@ var Log = {
 
   //So we have to do this and remember to call init later
   init: function() {
-    Log._currentLogLevel = Log.level.ERROR;
+    Log._currentLogLevel = Log.level.INFO;
   },
 
   _log: function(level, message) {

@@ -1,6 +1,6 @@
 define(['../vendor/lodash'], function(lodash) {
 
-  var Log = (function() {
+  var Log = function() {
     var module = {};
 
     module.level = {
@@ -8,7 +8,7 @@ define(['../vendor/lodash'], function(lodash) {
       INFO: "INFO"
     };
 
-    var currentLogLevel = module.level.ERROR;
+    var currentLogLevel = module.level.INFO;
 
     module.setLogLevel = function(level) {
       currentLogLevel = level;
@@ -33,7 +33,7 @@ define(['../vendor/lodash'], function(lodash) {
     };
 
     return module;
-  })();
+  }();
 
   return Log;
 });
