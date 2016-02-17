@@ -6,7 +6,7 @@ var Log = {
   },
 
   //You can't do the following. Log is undefined at the time this is evaluated
-  //_currentLogLevel = Log.level.INFO,
+  //_currentLogLevel: Log.level.INFO,
 
   //So we have to do this and remember to call init later
   init: function() {

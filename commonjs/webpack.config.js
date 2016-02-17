@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var webpackConfig = {
   entry: './src/commonjs.js',
   output: {
-    path: "./compliled",
+    path: "./compiled",
     filename:'bundle.js'
   }
 };
