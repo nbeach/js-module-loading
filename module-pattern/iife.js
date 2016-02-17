@@ -10,3 +10,5 @@ var Module = function(dep){
   return module;
 
 }(dependency);
+
+dependency = null; //This won't break the above module because it has it's own reference to the dependency
