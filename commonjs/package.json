@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "webpack --progress"
+    "build": "webpack --progress",
+    "build:watch": "webpack --progress --watch"
   },
   "dependencies": {
     "lodash": "^4.0.1"
